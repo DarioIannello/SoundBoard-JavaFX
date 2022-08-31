@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="600.0" stylesheets="@../application.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.bbbaden.SoundBoard.View.Settings">
+   <children>
+      <AnchorPane prefHeight="540.0" prefWidth="600.0" stylesheets="@../application.css">
+         <children>
+            <Button id="btn" layoutX="510.0" layoutY="360.0" mnemonicParsing="false" onAction="#exitBtnPressed" prefHeight="20.0" prefWidth="75.0" stylesheets="@../application.css" text="Exit" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="500.0" />
+            <Button id="btn" layoutX="426.0" layoutY="360.0" mnemonicParsing="false" onAction="#saveSoundnames" prefHeight="20.0" prefWidth="75.0" stylesheets="@../application.css" text="Save" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="115.0" AnchorPane.topAnchor="500.0" />
+            <Label id="lbl" layoutX="25.0" layoutY="94.0" prefHeight="17.0" stylesheets="@../application.css" text="Sound 1:" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="99.0" />
+            <Label id="titlelbl" fx:id="lblTitel" alignment="CENTER" layoutX="-2.0" layoutY="14.0" prefWidth="600.0" stylesheets="@../application.css" text="Edit Sounds" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="15.0">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtBtn1" layoutX="81.0" layoutY="86.0" minHeight="-Infinity" prefWidth="212.0" stylesheets="@../application.css" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="275.0" AnchorPane.topAnchor="95.0" />
+            <Label id="lbl" layoutX="15.0" layoutY="120.0" prefHeight="17.0" stylesheets="@../application.css" text="Sound 2:" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="139.0" />
+            <Label id="lbl" layoutX="15.0" layoutY="150.0" stylesheets="@../application.css" text="Sound 3:" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="179.0" />
+            <Label id="lbl" layoutX="15.0" layoutY="180.0" stylesheets="@../application.css" text="Sound 4:" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="219.0" />
+            <Label id="lbl" layoutX="15.0" layoutY="210.0" stylesheets="@../application.css" text="Sound 5:" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="259.0" />
+            <Label id="lbl" layoutX="15.0" layoutY="240.0" stylesheets="@../application.css" text="Sound 6:" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="299.0" />
+            <Label id="lbl" layoutX="15.0" layoutY="270.0" stylesheets="@../application.css" text="Sound 7:" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="339.0" />
+            <Label id="lbl" layoutX="15.0" layoutY="300.0" stylesheets="@../application.css" text="Sound 8:" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="379.0" />
+            <Label id="lbl" layoutX="15.0" layoutY="330.0" stylesheets="@../application.css" text="Sound 9:" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="419.0" />
+            <Label id="lbl" layoutX="15.0" layoutY="360.0" stylesheets="@../application.css" text="Sound 0:" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="459.0" />
+            <TextField fx:id="txtBtn2" layoutX="84.0" layoutY="126.0" minHeight="-Infinity" prefWidth="212.0" stylesheets="@../application.css" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="275.0" AnchorPane.topAnchor="135.0" />
+            <TextField fx:id="txtBtn3" layoutX="80.0" layoutY="166.0" minHeight="-Infinity" prefWidth="212.0" stylesheets="@../application.css" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="275.0" AnchorPane.topAnchor="175.0" />
+            <TextField fx:id="txtBtn4" layoutX="84.0" layoutY="206.0" minHeight="-Infinity" prefWidth="212.0" stylesheets="@../application.css" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="275.0" AnchorPane.topAnchor="215.0" />
+            <TextField fx:id="txtBtn5" layoutX="88.0" layoutY="246.0" minHeight="-Infinity" prefWidth="212.0" stylesheets="@../application.css" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="275.0" AnchorPane.topAnchor="255.0" />
+            <TextField fx:id="txtBtn6" layoutX="80.0" layoutY="286.0" minHeight="-Infinity" prefWidth="212.0" stylesheets="@../application.css" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="275.0" AnchorPane.topAnchor="295.0" />
+            <TextField fx:id="txtBtn7" layoutX="80.0" layoutY="326.0" minHeight="-Infinity" prefWidth="212.0" stylesheets="@../application.css" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="275.0" AnchorPane.topAnchor="335.0" />
+            <TextField fx:id="txtBtn8" layoutX="73.0" layoutY="366.0" minHeight="-Infinity" prefWidth="212.0" stylesheets="@../application.css" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="275.0" AnchorPane.topAnchor="375.0" />
+            <TextField fx:id="txtBtn9" layoutX="73.0" layoutY="406.0" minHeight="-Infinity" prefWidth="212.0" stylesheets="@../application.css" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="275.0" AnchorPane.topAnchor="415.0" />
+            <TextField fx:id="txtBtn0" layoutX="80.0" layoutY="446.0" minHeight="-Infinity" prefWidth="212.0" stylesheets="@../application.css" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="275.0" AnchorPane.topAnchor="455.0" />
+            <ChoiceBox fx:id="choiceBtn1" layoutX="353.0" layoutY="86.0" prefWidth="200.0" stylesheets="@../application.css" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="95.0" />
+            <ChoiceBox fx:id="choiceBtn2" layoutX="350.0" layoutY="126.0" prefWidth="200.0" stylesheets="@../application.css" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="135.0" />
+            <ChoiceBox fx:id="choiceBtn3" layoutX="347.0" layoutY="166.0" prefWidth="200.0" stylesheets="@../application.css" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="175.0" />
+            <ChoiceBox fx:id="choiceBtn4" layoutX="347.0" layoutY="206.0" prefWidth="200.0" stylesheets="@../application.css" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="215.0" />
+            <ChoiceBox fx:id="choiceBtn5" layoutX="347.0" layoutY="255.0" prefWidth="200.0" stylesheets="@../application.css" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="255.0" />
+            <ChoiceBox fx:id="choiceBtn6" layoutX="338.0" layoutY="286.0" prefWidth="200.0" stylesheets="@../application.css" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="295.0" />
+            <ChoiceBox fx:id="choiceBtn7" layoutX="338.0" layoutY="326.0" prefWidth="200.0" stylesheets="@../application.css" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="335.0" />
+            <ChoiceBox fx:id="choiceBtn8" layoutX="347.0" layoutY="366.0" prefWidth="200.0" stylesheets="@../application.css" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="375.0" />
+            <ChoiceBox fx:id="choiceBtn9" layoutX="338.0" layoutY="446.0" prefWidth="200.0" stylesheets="@../application.css" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="415.0" />
+            <ChoiceBox fx:id="choiceBtn0" layoutX="339.0" layoutY="437.0" prefWidth="200.0" stylesheets="@../application.css" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="455.0" />
+            <Label id="lbl" alignment="CENTER" layoutX="99.0" layoutY="71.0" prefHeight="18.0" prefWidth="146.0" stylesheets="@../application.css" text="Soundname" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="275.0" AnchorPane.topAnchor="75.0" />
+            <Label id="lbl" alignment="CENTER" layoutX="445.0" layoutY="75.0" prefHeight="18.0" stylesheets="@../application.css" text="Sound" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="75.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
